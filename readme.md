@@ -1,8 +1,6 @@
 # Aether Editor
 
-<picture>
-    <img src=aether_icon.png width=150px  align="right">
-</picture>
+<img src="aether_icon.png" width=150px  align="right">
 
 ### crie documentos escrevendo markdown
 
