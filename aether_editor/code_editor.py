@@ -1,5 +1,3 @@
-# code_editor.py
-
 from PySide6.QtCore import Qt, QRect, QSize, Slot
 from PySide6.QtGui import (
     QColor, QFont, QPainter, QTextCharFormat, QTextCursor

@@ -1,5 +1,3 @@
-# constants.py
-
 from PySide6.QtGui import QColor
 
 # --- Cores e Constantes do Editor de Código ---
@@ -7,7 +5,7 @@ LINE_NUMBER_BG_COLOR = QColor(30, 33, 38)
 LINE_NUMBER_TEXT_COLOR = QColor(100, 105, 115)
 HIGHLIGHT_LINE_COLOR = QColor(68, 71, 79, 150)
 
-# --- CSS para o PySide6 (Tema Global Escuro) ---
+# QSS para o PySide6 (Tema Global Escuro) ---
 GLOBAL_DARK_THEME_CSS = """
     QMainWindow, QWidget {
         background-color: #282c34; 
@@ -31,7 +29,7 @@ GLOBAL_DARK_THEME_CSS = """
     }
 """
 
-# --- HTML/CSS para o Preview (Tema Markdown - Monokai-like) ---
+# --- HTML/CSS para o Preview ---
 MARKDOWN_PREVIEW_STYLE = """
     body { 
         background-color: #21252b; 
@@ -69,27 +67,19 @@ MARKDOWN_PREVIEW_STYLE = """
     }
 
     blockquote {
-    /* Cor de fundo para dar contraste (mais fácil de renderizar que a borda) */
-    background-color: #2c313a; 
-    
-    /* Afasta o bloco da margem esquerda, dando a 'ilusão' de espaço */
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    
-    /* Espaçamento interno */
-    padding: 10px 15px;
-    
-    /* Tente a borda novamente, mas focaremos no padding */
-    border-left: 4px solid #5694f9; /* Azul Neon */
-    
-    font-style: italic;
-    color: #b3c0d8; 
-    border-radius: 4px; /* O arredondamento de borda raramente funciona bem */
+        background-color: #2c313a; 
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 10px 15px;
+        border-left: 4px solid #5694f9; 
+        font-style: italic;
+        color: #b3c0d8; 
+        border-radius: 4px; 
     }
     
-    /* Regras do Pygments/CodeHilite (Monokai-like) */
+    /* regras de estilo do pygments */
     .codehilite .hll { background-color: #444444 }
     .codehilite .c { color: #75715e; font-style: italic }
     .codehilite .k { color: #66d9ef; font-weight: bold } 
@@ -122,4 +112,37 @@ MARKDOWN_PREVIEW_STYLE = """
     .codehilite .s1 { color: #e6db74 }
     .codehilite .ss { color: #e6db74 }
     .codehilite .err { color: #f92672; background-color: #5d0030 }
+    .codehilite .dl { color: #e6db74 } /* Adiciona o delimiter, já estava em parte na sua lista */
+    .codehilite .s2 { color: #e6db74 } /* String - Delimitador de aspas duplas */
+    .codehilite .sa { color: #e6db74 } /* String - Atributo */
+    .codehilite .sb { color: #e6db74 } /* String - Binária */
+    .codehilite .sc { color: #e6db74 } /* String - Caractere */
+    .codehilite .dl { color: #e6db74 } /* String - Delimitador */
+    .codehilite .s { color: #e6db74 }  /* String genérica, já estava na sua lista */
+
+    /* Adicionado: Nomes */
+    .codehilite .nd { color: #a6e22e } 
+    .codehilite .ni { color: #f8f8f2 } 
+    .codehilite .ne { color: #a6e22e; font-weight: bold } 
+    .codehilite .no { color: #f92672 } 
+    .codehilite .bp { color: #66d9ef } 
+    .codehilite .vg { color: #f8f8f2 } 
+    .codehilite .vi { color: #f8f8f2 } 
+    .codehilite .vc { color: #f8f8f2 } 
+    .codehilite .cp { color: #75715e; font-style: italic } 
+    .codehilite .cs { color: #75715e; font-style: italic } 
+    .codehilite .ge { font-style: italic } 
+    .codehilite .gh { color: #f92672 } 
+    .codehilite .gp { color: #f8f8f2 } 
+    .codehilite .gu { color: #75715e; font-style: italic } 
+    .codehilite .w { color: #f8f8f2 } 
+    .codehilite .dl { color: #f8f8f2 } 
+    .codehilite .il { color: #ae81ff }
+
+    .codehilite .c { color: #78a9c0; font-style: italic } 
+    .codehilite .cm { color: #78a9c0; font-style: italic }
+    .codehilite .cp { color: #78a9c0; font-style: italic }
+    .codehilite .c1 { color: #78a9c0; font-style: italic }
+    .codehilite .cs { color: #78a9c0; font-style: italic }
+    .codehilite .ch { color: #78a9c0; font-style: italic }
 """
