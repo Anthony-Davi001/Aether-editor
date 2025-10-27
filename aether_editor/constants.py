@@ -1,4 +1,17 @@
-from PySide6.QtGui import QColor
+from PySide6.QtGui import QColor, QFont
+
+#tamanhos de fonte
+H1=QFont()
+H1.setPointSize(30)
+
+H2=QFont()
+H2.setPointSize(25)
+
+H3=QFont()
+H3.setPointSize(20)
+
+H4=QFont()
+H4.setPointSize(15)
 
 # --- Cores e Constantes do Editor de Código ---
 LINE_NUMBER_BG_COLOR = QColor(30, 33, 38)
@@ -31,10 +44,11 @@ GLOBAL_DARK_THEME_CSS = """
 
 # --- HTML/CSS para o Preview ---
 MARKDOWN_PREVIEW_STYLE = """
+    img{max-width: 400px; height: auto;}
     body { 
         background-color: #21252b; 
         color: #abb2bf; 
-        font-family: 'Consolas', monospace;
+        
         margin: 20px;
     }
     h1, h2, h3 { 
