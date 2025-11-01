@@ -1,0 +1,77 @@
+QMainWindow, QWidget {
+    background-color: #282c34; 
+    color: #abb2bf; 
+}
+
+QPlainTextEdit, QTextEdit {
+    background-color: #21252b; 
+    border: 1px solid #3e4451;
+    padding: 5px; 
+    color: #abb2bf; 
+}
+
+QPushButton {
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+}
+
+#switch_theme_button{
+    width: 40px; /* Largura do fundo do switch */
+    height: 20px; /* Altura do fundo do switch */
+    border-radius: 10px; /* Borda arredondada */
+    background-color: white;
+}
+
+#switch_theme_button::indicator{
+    width: 40px; /* Largura do fundo do switch */
+    height: 20px; /* Altura do fundo do switch */
+    border-radius: 10px; /* Borda arredondada */
+} 
+#switch_theme_button::indicator:unchecked {
+    border: 1px solid #3f0062; 
+    background-color: white;
+    content: "";
+    left: 2px; /* Posição inicial do círculo */
+    width: 16px; /* Tamanho do círculo */
+    height: 16px;
+    border-radius: 8px; /* Círculo perfeito */
+}
+
+#switch_theme_button::indicator:checked {
+    border: 1px solid #9500ff; 
+    content: "";
+    position: absolute;
+    left: 22px; 
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+#CodeEditor {
+    background: #222328; 
+    color: #f8f8f2;
+    selection-background-color: #3e4049; 
+    selection-color: #f8f8f2;
+}
+
+#lineNumberArea {
+    background-color: #32343e; 
+    color: #919191; 
+}
+
+#CodeEditor {
+    background: #222328; 
+    color:  #f8f8f2;
+    selection-background-color: #3e4049; 
+    selection-color: #f8f8f2;
+}
+
+#lineNumberArea {
+    background-color: #32343e; 
+    color: #919191; 
+}

@@ -1,0 +1,127 @@
+img { 
+    max-width: 500px;
+    height: auto; 
+}
+
+body { 
+    background-color: #ffffff; 
+    color: #24292f; 
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 { 
+    color: #24292f; 
+    padding-bottom: 0.3em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 15px 0;
+    color: #24292f;
+}
+th, td {
+    border: 1px solid #d0d7de; 
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f6f8fa; 
+}  
+
+hr{ 
+    background: #d0d7de; 
+    border: none; 
+    height: 1px; 
+}
+
+pre, code {
+    background-color: #f6f8fa; 
+    color: #24292f; 
+    padding: 10px;
+    border-radius: 6px; 
+    overflow-x: auto;
+    display: block; 
+}
+
+blockquote {
+    background-color: #f0f3f6; 
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    font-style: italic;
+    color: #57606a; 
+}
+
+.codehilite { font-family: "Cascadia Code","DejaVu Sans Mono", "Consolas", monospace;}
+.codehilite .hll { background-color: #e6e9ec } 
+
+/* basic sintax (keywords) */
+.codehilite .k { color: #cf222e; font-weight: bold } 
+.codehilite .kc { color: #cf222e; font-weight: bold } 
+.codehilite .kd { color: #cf222e; font-weight: bold }
+.codehilite .kn { color: #cf222e; font-weight: bold }
+.codehilite .kp { color: #cf222e } 
+.codehilite .kr { color: #cf222e; font-weight: bold } 
+.codehilite .kt { color: #953800; font-weight: bold } 
+
+/* operators */
+.codehilite .ow { color: #cf222e; font-weight: bold } 
+.codehilite .o { color: #24292f } 
+
+/* literal numbers */
+.codehilite .il { color: #0550ae } 
+.codehilite .m { color: #0550ae } 
+.codehilite .mi { color: #0550ae } 
+.codehilite .mf { color: #0550ae } 
+
+/* strings */
+.codehilite .dl { color: #008000 }
+.codehilite .sd { color: #008000; font-style: italic } 
+.codehilite .se { color: #008000 }
+.codehilite .sh { color: #008000 }
+.codehilite .si { color: #008000 }
+.codehilite .sx { color: #008000 }
+.codehilite .sr { color: #008000 }
+.codehilite .s1 { color: #008000 }
+.codehilite .ss { color: #008000 }
+.codehilite .s2 { color: #008000 } 
+.codehilite .sa { color: #008000 } 
+.codehilite .sb { color: #008000 } 
+.codehilite .sc { color: #008000 }  
+.codehilite .s { color: #008000 } 
+
+/* pygments errors */
+.codehilite .err { color: #cf222e; background-color: #fcd9d9 }
+
+/* names */
+.codehilite .na { color: #0550ae }
+.codehilite .nb { color: #24292f } 
+.codehilite .nc { color: #953800; font-weight: bold } 
+.codehilite .nf { color: #8250df; font-weight: bold } 
+.codehilite .nt { color: #24292f } 
+.codehilite .nv { color: #0550ae } 
+.codehilite .nd { color: #8250df } 
+.codehilite .ni { color: #24292f } 
+.codehilite .ne { color: #cf222e; font-weight: bold } 
+.codehilite .no { color: #953800 } 
+.codehilite .bp { color: #0550ae } 
+.codehilite .vg { color: #0550ae } 
+.codehilite .vi { color: #0550ae } 
+.codehilite .vc { color: #0550ae } 
+
+/* comments */
+.codehilite .cp { color: #6e7781; font-style: italic }
+.codehilite .ge { color: #6e7781; font-style: italic }
+.codehilite .gh { color: #6e7781; font-style: italic }
+.codehilite .gp { color: #6e7781; font-style: italic }
+.codehilite .gu { color: #6e7781; font-style: italic }
+.codehilite .w { color: #6e7781; font-style: italic }
+.codehilite .c { color: #6e7781; font-style: italic }
+.codehilite .cm { color: #6e7781; font-style: italic }
+.codehilite .c1 { color: #6e7781; font-style: italic }
+.codehilite .cs { color: #6e7781; font-style: italic }
+.codehilite .ch { color: #6e7781; font-style: italic }

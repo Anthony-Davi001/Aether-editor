@@ -3,7 +3,7 @@
         <img alt="License: GPL v3" src="https://img.shields.io/badge/License-GPLv3-4c1.svg" />
     </a>
     <a href="https://docs.python.org/3/">
-        <img alt="Feito com Python" src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+        <img alt="Made With Python" src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
     </a>
     <a href="https://www.markdownguide.org/basic-syntax/">
         <img alt="Markdown Badge" src="https://img.shields.io/badge/-Markdown-000000?style=flat&logo=markdown&logoColor=white" />
@@ -21,26 +21,28 @@
 
 <img src="aether_icon.png" width=150px  align="right">
 
-### crie documentos escrevendo markdown
+### Create documents by writing markdown
 
-#### funções já presentes:
+#### Current features:
 
-- conversão e salvamento para documentos pdf.
-- escrita de markdown.
-- preview do resultado final.
+- Convert and save documents to PDF.
+- Markdown writing.
+- Live preview of the final result.
+- Syntax highlighting.
+- Styling themes
 
-## visualização:
+## Visualization: 
 
-![visualização do app](preview.png)
+![visualization of app](preview.png)
 
-## como baixar:
+## How to download:
 
-#### clone o repositório
+#### Clone the repository
 
 ```bash
 git clone https://github.com/Anthony-Davi001/Aether-editor.git
 ```
-#### instale as dependências:
+#### Install dependencies:
 
 ```bash
 pip install PySide6
@@ -48,7 +50,7 @@ pip install Pygments
 pip install markdown
 ```
 
-#### rode o arquivo `main.py`:
+#### Run the `main.py` file:
 
 ```
 python3 main.py
